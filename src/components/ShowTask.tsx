@@ -7,7 +7,6 @@ import { useTodoContext } from "../utility/TodoContext";
 
 const ShowTask: React.FC = () => {
 
-    //    const arr= useSelector((state:RootState)=>state.data.arr)
 
     const { todos, deleteTodo } = useTodoContext();
 
